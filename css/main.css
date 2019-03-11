@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 70px;
+}
+
+a {
+    color: #E1CC19;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* new */
+p {
+    margin-top: 15px;
+}
+
+h4 {
+    margin-top: 30px;
+}
+
+.navbar {
+    opacity: .95;
+}
+
+
+.logo {
+    color: #E1CC19;
+    font-size: 1.7em;
+    text-decoration: none;
+    letter-spacing: .3em;
+    font-weight: 600;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+
+
+
+li {
+    font-size: 1.4rem;
+    margin-right: 50px;
+}
+
+
+.main-1 {
+    background: url(../img/robert-collins-333411-unsplash-min.jpg) no-repeat center center;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    text-align: center;
+    margin-top: -70px;
+    padding-top: 190px;
+    border-bottom: solid 5px;
+    color: #DEE9E8;
+
+}
+
+
+h1,
+h2 {
+    font-weight: 800;
+}
+
+
+.main-2 {
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.card1 {
+    background-image: url('../img/card1.jpg');
+
+}
+
+.card2 {
+    background-image: url('../img/card2.jpg');
+
+}
+
+.card3 {
+    background-image: url('../img/card3.jpg');
+
+}
+
+.card4 {
+    background-image: url('../img/card4.jpg');
+
+}
+
+
+
+.image2 {
+    width: 420px;
+    height: 420px;
+    background-size: cover;
+    border: solid 1px;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+
+
+.def {
+    width: 50%;
+    height: 50%;
+    padding-right: 50px;
+}
+
+
+.main-3 {
+    height: 600px;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+.main-4 {
+
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.contacts4 {
+    text-decoration: none;
+    list-style-type:none;
+    text-align: left;
+}
+
+
+#footer {
+  height: 60px;
+  color: #DEE9E8;
+  font-size: .8em;
+  opacity: .9;
+  text-align: center;
+  margin-top: -60px;
+  }
+
