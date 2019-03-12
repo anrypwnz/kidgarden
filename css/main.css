@@ -52,8 +52,9 @@ h4 {
     text-decoration: none;
     letter-spacing: .3em;
     font-weight: 600;
-    font-family: 'Luckiest Guy', cursive;
+     
 }
+
 
 
 
@@ -99,7 +100,6 @@ h2 {
 
 .card2 {
     background-image: url('../img/card2.jpg');
-
 }
 
 .card3 {
@@ -152,6 +152,8 @@ h2 {
     list-style-type:none;
     text-align: left;
 }
+
+
 
 
 #footer {
