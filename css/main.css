@@ -13,12 +13,12 @@ body {
 }
 
 a {
-    color: #E1CC19;
+    color: lightblue;
 }
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: rgb(182, 29, 149);
     text-decoration: none;
     outline: 0;
 }
@@ -113,8 +113,8 @@ h2 {
 
 
 .image2 {
-    width: 420px;
-    height: 420px;
+    width: 300px;
+    height: 300px;
     background-size: cover;
     border: solid 1px;
     border-radius: 5%;
@@ -130,19 +130,22 @@ h2 {
 
 
 .main-3 {
-    height: 600px;
+    height: auto;
     width: 100%;
-    padding-top: 100px;
     text-align: center;
 }
 
 
 .main-4 {
-    height: 700px;
+    height: auto;
     width: 100%;
     padding-top: 30px;
     text-align: center;
     padding-bottom: 60px;
+}
+
+.photo-block > a > img {
+    border: solid 1px;
 }
 
 .contacts4 {
