@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
-
 body {
     background-color: #f2f2f2;
     font-family: "Montserrat";
@@ -11,18 +10,15 @@ body {
     -webkit-overflow-scrolling: touch;
     margin-top: 70px;
 }
-
 a {
-    color:rgb(17, 111, 219);
+    color: rgb(17, 111, 219);
 }
-
 a:hover,
 a:focus {
     color: rgb(182, 29, 149);
     text-decoration: none;
     outline: 0;
 }
-
 hr {
     display: block;
     height: 1px;
@@ -31,39 +27,33 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-
 /* new */
-.main-2 > p {
+.main-2>p {
     margin-top: 15px;
 }
-
 h4 {
     margin-top: 30px;
 }
-
 .navbar {
     opacity: .95;
 }
-
-
-.logo > a {
-    color: #E1CC19 !important;
+.logo>a {
+    color: rgb(4, 155, 4) !important;
     text-decoration: none;
-    font-family: 'Lobster';
+    font-family: 'Montserrat';
+    font-weight: 600;
     font-size: 2em;
-    letter-spacing: .1em;
+    letter-spacing: .05em;
 }
-
-
-
-
-
-nav > li {
+.logotype {
+    color: #E1CC19;
+    height: 50px;
+    transform: rotate(-30deg);
+}
+nav>li {
     font-size: 1.2rem;
     margin-right: 10px;
 }
-
-
 .main-1 {
     background: url(../img/robert-collins-333411-unsplash-min.jpg) no-repeat center center;
     width: 100%;
@@ -74,113 +64,109 @@ nav > li {
     padding-top: 190px;
     border-bottom: solid 5px;
     color: #DEE9E8;
-
 }
-
-
 h1,
 h2 {
     font-weight: 800;
 }
-
-
 .main-2 {
     width: 100%;
     min-height: 500px;
-    text-align: center;
+    text-align: justify;
     align-items: center;
-    margin: 50px 0;
+    padding: 50px 0;
+    background: url('../img/country-quilt.png');
+    background-attachment: fixed;
 }
-
 .card1 {
     background-image: url('../img/card1.jpg');
-
 }
-
 .card2 {
     background-image: url('../img/card2.jpg');
 }
-
 .card3 {
     background-image: url('../img/card3.jpg');
-
 }
-
 .card4 {
     background-image: url('../img/card4.jpg');
-
 }
-
-
-
+img {
+    max-width: 100%;
+}
+#lightgallery img {
+    width: 150px;
+    height: 150px;
+}
 .image2 {
-    width: 300px;
+    max-width: 300px;
     height: 300px;
     background-size: cover;
     border: solid 1px;
     border-radius: 5%;
     margin: 0 auto;
 }
-
-
 .def {
     width: 50%;
     height: 50%;
     padding-right: 50px;
 }
-
-
 .main-3 {
     height: auto;
     width: 100%;
     text-align: center;
+    background: url('../img/congruent_pentagon.png');
+    padding-bottom: 30px;
 }
-
-
 .main-4 {
     height: auto;
     width: 100%;
     padding-top: 30px;
     text-align: center;
     padding-bottom: 60px;
+    background: url('../img/country-quilt.png');
 }
-
-.photo-block > a > img {
+.photo-block>a>img {
     object-fit: cover;
     padding: 1px;
+    border-radius: 4px;
     -moz-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
     -webkit-transition: all 0.2s ease-out;
 }
-
-.photo-block > a:hover > img {
+.photo-block>a:hover>img {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
-
-.work-time > p {
+.photo-title {
+    padding: 30px 0 0 0;
+}
+.work-time>p {
     text-align: left;
     padding-left: 50px;
 }
-
 .contacts4 {
     text-decoration: none;
-    list-style-type:none;
+    list-style-type: none;
     text-align: left;
-    padding-top: 50px;
- 
 }
-
-
-
-
 #footer {
-  height: 60px;
-  color: #DEE9E8;
-  font-size: .8em;
-  opacity: .9;
-  text-align: center;
-  margin-top: -60px;
-  }
-
+    height: 60px;
+    color: #DEE9E8;
+    font-size: .8em;
+    opacity: .9;
+    text-align: center;
+    margin-top: -30px;
+}
+@media screen and (max-width: 420px) {
+    .main-1 h1 {
+        font-size: 1.5rem;
+    }
+    .main-1 h3 {
+        font-size: 1rem;
+    }
+    #lightgallery img {
+        width: 89px;
+        height: 89px;
+    }
+}
